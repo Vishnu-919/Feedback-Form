@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form </h2>
+    <form onsubmit="alert;return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="message">Feedback:</label>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+        <label>How satisfied are you?</label><br>
+        <input type="radio" id="neutral" name="satisfaction" value="satisfied" required>
+        <label for="satisfied">Satisfied</label><br>
+         <input type="radio" id="unsatisfied" name="satisfaction" value="Unsatisfied" required>
+        <label for="unsatisfied">unsatisfied</label><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
